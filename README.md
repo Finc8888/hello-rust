@@ -28,6 +28,25 @@ rustup doc
 ```
 Ctrl+Shift+P → "Markdown: Open Preview" Or Cut command: `Ctrl+Shift+V`
 ```
+### Run examples
+```bash
+# Run particular example
+cargo run --example array_vs_vec
+cargo run --example simple_hello
+
+# Run with arguments (if example takes it)
+cargo run --example simple_hello -- arg1 arg2
+```
+### Run Tests
+```bash
+cargo test --examples
+cargo test --example array_vs_vec
+```
+### See all commands
+```bash
+cargo help run
+cargo run --help
+```
 ## Init project with Git
 ```bash
 git init
