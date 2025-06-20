@@ -8,11 +8,11 @@ cargo new hello_cargo
 ```bash
 cargo build
 ```
-*Build relise:(long compilate but optimization of app after)*
+*Build release (long compilation but optimized app)*
 ```bash
 cargo build --release
 ```
-### Build project with cargo
+### Run project with cargo
 ```bash
 cargo run
 ```
@@ -26,7 +26,7 @@ rustup doc
 ```
 ## View markdown with Zed
 ```
-Ctrl+Shift+V
+Ctrl+Shift+P → "Markdown: Open Preview" Or Cut command: `Ctrl+Shift+V`
 ```
 ## Init project with Git
 ```bash
