@@ -1,5 +1,5 @@
 # Rust project
-## Main commands
+## Main commands:
 ### Create project with cargo
 ```bash
 cargo new hello_cargo
@@ -8,6 +8,10 @@ cargo new hello_cargo
 ```bash
 cargo build
 ```
+*Build relise:(long compilate but optimization of app after)*
+```bash
+cargo build --release
+```
 ### Build project with cargo
 ```bash
 cargo run
@@ -15,6 +19,10 @@ cargo run
 ### Check project with cargo
 ```bash
 cargo check
+```
+### See Rust API in browser
+```bash
+rustup doc
 ```
 ## View markdown with Zed
 ```
