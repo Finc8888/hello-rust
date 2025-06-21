@@ -8,6 +8,10 @@ cargo new hello_cargo
 ```bash
 cargo build
 ```
+### Update creates verisions with cargo(only minor versions, for major It's need to update Cargo.toml)
+```bash
+cargo update
+```
 *Build release (long compilation but optimized app)*
 ```bash
 cargo build --release
@@ -21,12 +25,19 @@ cargo run
 cargo check
 ```
 ### See Rust API in browser
+Was a problem, opening other App instead browser. Fix in settings as choise Default App for Web(Set Google Chrome)
 ```bash
 rustup doc
+rustup doc --std
+cargo doc --open
 ```
-## View markdown with Zed
+## Zed shortcuts
 ```
 Ctrl+Shift+P → "Markdown: Open Preview" Or Cut command: `Ctrl+Shift+V`
+Ctrl+` - Open Terminal
+Ctrl+J - Close Terminal
+Ctrl+Shift+E - Open Project panel
+Ctrl+B - Close Project Panel
 ```
 ### Run examples
 ```bash
@@ -46,6 +57,11 @@ cargo test --example array_vs_vec
 ```bash
 cargo help run
 cargo run --help
+```
+## Run subprojects
+### Guess gaming
+```bash
+cargo run --example guess_game
 ```
 ## Init project with Git
 ```bash
