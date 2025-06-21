@@ -57,6 +57,7 @@ Ctrl+` - Open Terminal
 Ctrl+J - Close Terminal
 Ctrl+Shift+E - Open Project panel
 Ctrl+B - Close Project Panel
+F2 - Refactoring 'Rename variable'
 ```
 ## Run subprojects
 ### Guess gaming
