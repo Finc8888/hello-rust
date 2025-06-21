@@ -12,7 +12,7 @@ fn main() {
             .read_line(&mut guess)
             .expect("String can't be read");
 
-        let guess: i32 = match guess.trim().parse() {
+        let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
                 println!("Please type only numbers");
