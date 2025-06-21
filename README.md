@@ -31,14 +31,6 @@ rustup doc
 rustup doc --std
 cargo doc --open
 ```
-## Zed shortcuts
-```
-Ctrl+Shift+P → "Markdown: Open Preview" Or Cut command: `Ctrl+Shift+V`
-Ctrl+` - Open Terminal
-Ctrl+J - Close Terminal
-Ctrl+Shift+E - Open Project panel
-Ctrl+B - Close Project Panel
-```
 ### Run examples
 ```bash
 # Run particular example
@@ -57,6 +49,14 @@ cargo test --example array_vs_vec
 ```bash
 cargo help run
 cargo run --help
+```
+## Zed shortcuts
+```
+Ctrl+Shift+P → "Markdown: Open Preview" Or Cut command: `Ctrl+Shift+V`
+Ctrl+` - Open Terminal
+Ctrl+J - Close Terminal
+Ctrl+Shift+E - Open Project panel
+Ctrl+B - Close Project Panel
 ```
 ## Run subprojects
 ### Guess gaming
