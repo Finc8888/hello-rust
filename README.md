@@ -69,6 +69,10 @@ cargo run --example guess_game
 ```bash
 cargo run --example temperature_converter
 ```
+### Fibonacci algorithm
+```bash
+cargo run --example fibonacci
+```
 ## Init project with Git
 ```bash
 git init
