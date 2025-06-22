@@ -58,11 +58,16 @@ Ctrl+J - Close Terminal
 Ctrl+Shift+E - Open Project panel
 Ctrl+B - Close Project Panel
 F2 - Refactoring 'Rename variable'
+Ctrl+, - Open settings.json file
 ```
 ## Run subprojects
 ### Guess gaming
 ```bash
 cargo run --example guess_game
+```
+### Temperature converter
+```bash
+cargo run --example temperature_converter
 ```
 ## Init project with Git
 ```bash
