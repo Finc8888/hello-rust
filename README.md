@@ -49,6 +49,7 @@ cargo test --example array_vs_vec
 ```bash
 cargo help run
 cargo run --help
+cargo --list
 ```
 ## Zed shortcuts
 ```
@@ -81,4 +82,21 @@ git commit -m "Init commit"
 git branch -M main
 git remote add origin git@github.com:Finc8888/hello-rust.git
 git push -u origin main
+```
+## Formating tools
+### rustfmt
+```bash
+rustup component add rustfmt
+```
+```bash
+cargo fmt
+```
+### rustfix
+```bash
+cargo fix
+```
+### Clippy(Static analys)
+```bash
+rustup component add clippy
+cargo clippy
 ```
