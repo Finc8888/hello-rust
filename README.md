@@ -78,6 +78,10 @@ cargo run --example fibonacci
 ```bash
 cargo run --example rectangle
 ```
+### Song text
+```bash
+cargo run --example song_text
+```
 ## Init project with Git
 ```bash
 git init
