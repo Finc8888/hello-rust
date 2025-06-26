@@ -5,7 +5,8 @@ fn main() {
         println!("{}", get_first_word(st));
     }
 }
-fn first_char_to_lowercase(s: &str) -> String {
+// FIXME Write myself func
+fn claude_first_char_to_lowercase(s: &str) -> String {
     if s.is_empty() {
         return String::new();
     }
