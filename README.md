@@ -74,6 +74,10 @@ cargo run --example temperature_converter
 ```bash
 cargo run --example fibonacci
 ```
+### Rectangle
+```bash
+cargo run --example rectangle
+```
 ## Init project with Git
 ```bash
 git init
