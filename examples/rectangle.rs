@@ -7,17 +7,21 @@ fn main() {
         "Area for rectangle with widht = {} and height = {} is {} squre pixel",
         &rectangle.width,
         &rectangle.height,
-        calc_area(&rectangle)
+        rectangle.calc_area()
     );
+    println!("{:#?}", rectangle);
 }
 
+#[derive(Debug)]
 struct Rectangle {
     width: u32,
     height: u32,
 }
 
-fn calc_area(rectangle: &Rectangle) -> u32 {
-    rectangle.width * rectangle.height
+impl Rectangle {
+    fn calc_area(&self) -> u32 {
+        self.width * self.height
+    }
 }
 
 #[cfg(test)]
@@ -34,7 +38,7 @@ mod tests {
             width: 1,
             height: 1,
         };
-        assert_eq!(calc_area(&rectangle1), 60);
-        assert_eq!(calc_area(&rectangle2), 1);
+        assert_eq!(rectangle1.calc_area(), 60);
+        assert_eq!(rectangle2.calc_area(), 1);
     }
 }
